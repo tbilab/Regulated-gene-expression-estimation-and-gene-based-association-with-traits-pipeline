@@ -16,7 +16,7 @@ os.system("module load GCC/6.4.0-2.28  OpenMPI/2.1.1 R/3.4.3")
 os.system("module load GCC/6.4.0-2.28 Python/3.6.3")
 
 # prepare genotype file,convert plink format to dosage
-# # firstly, separate the cleanchr_qc into each chromosome
+# # firstly, separate the raw genotype data into each chromosome
 for chr in range(1, 23):
     os.system("%s --bfile %s --noweb --chr %s --make-bed --out %schr%s" % (plink, rawgenotype, chr, output, chr))
 
