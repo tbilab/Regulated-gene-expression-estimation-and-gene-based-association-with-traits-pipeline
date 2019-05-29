@@ -7,14 +7,14 @@ Copyright: Some of the python scripts and R scripts belong to the Predixcan, her
 
 ## Procedures
 
-* 1. Git clone this repo
+* Git clone this repo
 
 ```
 git clone https://github.com/verasiwei/Transcriptome_impute_Pipeline
 ```
 
-* 2. Users to edit the directory in config.py
-* 3. On your terminal, cd to the folder pythonscript
+* Users to edit the directory in config.py
+* On your terminal, cd to the folder pythonscript
 
 ```
 $ python transcriptome_impute.py
