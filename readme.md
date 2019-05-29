@@ -12,7 +12,7 @@ The aim of this pipeline is to parallel the original process in PrediXcan so tha
 * Git clone this repo
 
 ```
-git clone https://github.com/tbilab/Transcriptome_impute_Pipeline
+git clone https://github.com/verasiwei/Transcriptome_impute_Pipeline
 ```
 
 * Users to edit the directory in config.py
