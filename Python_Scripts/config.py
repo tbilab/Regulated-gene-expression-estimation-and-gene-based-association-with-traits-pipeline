@@ -11,6 +11,8 @@ class global_var:
     rscript = " "  # your raw path of the r script
     weights = " "  # full path to the prediction model database
     result = " "  # the path of your result
+    phenofile = "" # the full path of your phenotype file
+    outputprefix = "" # the prefix of the output file
 
 
 def set_plink(plink):
@@ -67,3 +69,15 @@ def set_rscript(rscript):
 
 def get_rscript():
     return global_var.rscript
+
+def set_phenofile(phenofile):
+    global_var.phenofile = phenofile
+
+def get_phenofile():
+    return global_var.phenofile
+
+def set_outputprefix(outputprefix):
+    global_var.outputprefix = outputprefix
+
+def get_outputprefix():
+    return global_var.outputprefix
